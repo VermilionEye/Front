@@ -6,7 +6,7 @@ main{
 }
 .Zastavka{
     position: relative;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 .Gallery{
     margin-right: auto;
@@ -792,6 +792,10 @@ iframe{
     }
     .Text{
         padding-top: 0px;
+    }
+    .Zastavka{
+        padding-top: 0px;
+        width: 100%;
     }
 }
 @media (min-width: 768px) and (max-width: 1000px){
