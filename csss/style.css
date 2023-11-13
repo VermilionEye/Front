@@ -536,7 +536,8 @@ iframe{
     }
 
     .Zastavka{
-        padding-top: 4%;
+        padding-top: 0px;
+        width: 100%;
     }
 
     .Gallery{
@@ -596,6 +597,9 @@ iframe{
         height: 4px;
         top: 8px;
         transition: all 0.5s ease 0s;
+    }
+    main{
+        width: 98%;
     }
     
     .Menu_burger::after,
@@ -792,10 +796,6 @@ iframe{
     }
     .Text{
         padding-top: 0px;
-    }
-    .Zastavka{
-        padding-top: 0px;
-        width: 100%;
     }
 }
 @media (min-width: 768px) and (max-width: 1000px){
